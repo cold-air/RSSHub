@@ -2300,6 +2300,20 @@ column 为 third 时可选的 category:
 
 </Route>
 
+## 时刻新闻
+
+### 新闻
+
+<Route author="linbuxiao" example="/timednews/news" path="/timednews/news/:type?" :paramsDesc="['子分类，见下表，默认为全部']">
+
+子分类
+
+| 全部 | 时政           | 财经    | 科技       | 社会   | 体娱   | 国际          | 美国 | 中国 | 欧洲   | 评论     |
+| ---- | -------------- | ------- | ---------- | ------ | ------ | ------------- | ---- | ---- | ------ | -------- |
+| all  | currentAffairs | finance | technology | social | sports | international | usa  | cn   | europe | comments |
+
+</Route>
+
 ## 时事一点通
 
 ### 资讯
@@ -2985,18 +2999,3 @@ QueryString:
 |          | zh-hk    | zh-tw    |
 
 </Route>
-
-## 时刻新闻
-
-### 新闻
-
-<Route author="linbuxiao" example="/timednews/news" path="/timednews/news/:type?" :paramsDesc="['子分类，见下表，默认为全部']">
-
-子分类
-
-| 全部 | 时政            | 财经    | 科技        | 社会   | 体娱   | 国际           | 美国 | 中国 | 欧洲    | 评论     |
-|-----|----------------|---------|------------|-------|--------|---------------|-----|-----|--------|----------|
-| all | currentAffairs | finance | technology | social| sports | international | usa | cn  | europe | comments |
-
-</Route>
-
